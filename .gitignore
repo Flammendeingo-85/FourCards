@@ -13,8 +13,8 @@
 # Ignore log files
 *.log
 # Ignore system files
-.DS_Store
-.gitignore
+*.DS_Store/
+*.gitignore/
 Thumbs.db
 # Ignore environment-specific files
 .env
@@ -56,11 +56,11 @@ Desktop.ini
 *.tar.bz2
 *.tar.xz
 # Ignore sensitive or personal information
-config.ini/
-secrets.yml/
-passwords.txt/
-README-template.md/
-README.md/
-style-guide.md/
-design/
-DESIGN/
+*config.ini/
+*secrets.yml/
+*passwords.txt/
+*README-template.md/
+*README.md/
+*style-guide.md/
+*design/
+*DESIGN/
