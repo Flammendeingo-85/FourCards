@@ -13,8 +13,8 @@
 # Ignore log files
 *.log
 # Ignore system files
-*.DS_Store/
-*.gitignore/
+*.DS_Store
+*.gitignore
 Thumbs.db
 # Ignore environment-specific files
 .env
