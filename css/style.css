@@ -132,23 +132,25 @@ body {
 }
 
 .card {
+  --br: .325rem;
   padding: 2rem;
-  border-radius: 0.5rem;
+  border-radius: var(--br);
+  border-top: var(--br) solid;
   box-shadow: 0 1rem 1.5rem -0.5rem rgb(0 50 100 / 0.2);
 }
 
-.card--1 {
-  border-top: 5px solid var(--clr-accent-cyan);
+.border-teal {
+  border-color: var(--clr-accent-cyan);
 }
 
-.card--2 {
-  border-top: 5px solid var(--clr-accent-red);
+.border-red {
+  border-color: var(--clr-accent-red);
 }
 
-.card--3 {
-  border-top: 5px solid var(--clr-accent-orange);
+.border-orange {
+  border-color: var(--clr-accent-orange);
 }
 
-.card--4 {
-  border-top: 5px solid var(--clr-accent-blue);
+.border-blue {
+  border-color: var(--clr-accent-blue);
 }
