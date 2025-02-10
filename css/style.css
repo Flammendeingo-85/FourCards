@@ -131,8 +131,14 @@ body {
 
 .layout-grid {
   --gap: 2rem;
-  display: flex;
+  display: grid;
   gap: var(--gap);
+}
+
+@media (min-width: 800px){
+  .layout-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .layout-grid > * {
