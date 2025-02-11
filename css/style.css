@@ -135,7 +135,7 @@ body {
   gap: var(--gap);
 }
 
-@media (min-width: 800px){
+@media (min-width: 800px) {
   .layout-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
